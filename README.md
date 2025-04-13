@@ -3,5 +3,5 @@
 
 ## Environment Variables
 
-### SERVER_PORT = <port>
-### LAVA_PASSWORD = <password>
+SERVER_PORT = <port>
+LAVA_PASSWORD = <password>

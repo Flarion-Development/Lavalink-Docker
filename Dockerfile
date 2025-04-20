@@ -9,5 +9,7 @@ COPY Lavalink /opt/Lavalink
 COPY entrypoint.sh /opt/Lavalink/entrypoint.sh
 RUN chmod +x /opt/Lavalink/entrypoint.sh
 
+VOLUME [ "/opt/Lavalink" ]
+
 # Command to run Lavalink
 CMD ["sh", "entrypoint.sh"]
